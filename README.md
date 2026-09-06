@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Event planner app using Next.js, TypeScript, Tailwind CSS, and a modern PostgreSQL database powered by Neon. Users can create an event, generate shareable links and track attendes status.
 
 ## Getting Started
 
