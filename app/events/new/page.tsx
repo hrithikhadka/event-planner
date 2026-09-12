@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { createEventAction } from "@/lib/actions/events";
 import Link from "next/link";
 
 export default async function NewEventPage() {
@@ -18,7 +19,7 @@ export default async function NewEventPage() {
           <CardTitle>Create a new event</CardTitle>
         </CardHeader>
         <CardContent>
-          <form>
+          <form action={createEventAction}>
             <FieldGroup>
               <Field>
                 <FieldLabel htmlFor="title">Title</FieldLabel>
